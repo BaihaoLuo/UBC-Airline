@@ -1,0 +1,297 @@
+body {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
+    background: url('image/cloud.png') no-repeat center center fixed;
+         background-color: #d1ecfc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; ;
+}
+
+#wrapper {
+    height:     auto;       /* These two lines were the key. */
+    min-height: 100%;
+    width: 90%;
+    /*overflow:   hidden;*/ /* Do not use this, it crops in small browsers. */
+    margin:     0px auto;
+    padding:    0px auto;
+}
+
+#header{
+    width: 100%;
+    color: white;
+    background-image: url(image/mock-logo-reverse.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    font-size:16px;
+}
+
+
+#main{
+    margin-top: 0px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    height: 60px;
+    text-align: right;
+}
+
+#customer {
+    min-height:83vh;
+    width: 97%;
+    border: 2px solid #002145;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    background-image: url(image/plane.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:right top;
+    font-size:20px;
+} 
+
+#ticket {
+    width: 97%;
+    border: 2px solid #002145;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+} 
+
+#flight {
+    min-height:83vh;
+    width: 97%;
+    border: 2px solid #002145;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:right top;
+    font-size:20px;
+} 
+
+#flight table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#flight th{
+    padding: 8px;
+    text-align: left;
+}
+#flight tr:nth-child(even){background-color: #ddd}
+
+#flight tr:hover{
+    background-color: #4E9CFE;
+    color: white;
+}
+
+#flight th{
+    background-color: #2C67B3;
+    color:white;
+}
+
+#employee_cusinfo {
+    min-height:83vh;
+    width: 97%;
+    border: 2px solid #002145;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:right top;
+    font-size:20px;
+} 
+
+#employee_cusinfo table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#employee_cusinfo th{
+    padding: 8px;
+    text-align: left;
+}
+#employee_cusinfo tr:nth-child(even){background-color: #ddd}
+
+#employee_cusinfo tr:hover{
+    background-color: #4E9CFE;
+    color: white;
+}
+
+#employee_cusinfo th{
+    background-color: #2C67B3;
+    color:white;
+}
+
+#employee_cusinfo th, #employee_cusinfo td{
+    padding: 12px; 
+}
+
+#ticketList table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ticketList th, #ticketList td{
+    padding: 8px;
+    text-align: left;
+}
+
+#ticketList tr:nth-child(even){background-color: #ddd}
+
+#ticketList tr:hover{
+    background-color: #4E9CFE;
+    color: white;
+}
+
+#ticketList th{
+    background-color: #2C67B3;
+    color:white;
+}
+
+h2 {
+    text-align: center;
+}
+
+th{
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    color:#002145;
+}
+
+h3 {
+
+    font-size: 100px;
+    color: white;
+}
+
+#homebuttons{
+  margin: auto;
+  position: absolute;
+   top: 40%;
+   width:95%;
+
+}
+
+
+a.menu {
+    background-color: white; 
+    border: 2px solid #002145;
+    border-radius: 12px;
+    color: #002145; 
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15%, 5%;
+    width: 10%;
+    height: 100%
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a.menu:hover {
+    background-color: #002145;
+    color: white;
+}
+
+
+a.homepage {
+    background-color: white; 
+    border: 2px solid #002145;
+    border-radius: 12px;
+    color: #002145; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    /*margin: 4px 2px;*/
+    margin: 0% 5%;
+    width: 15%;
+    height: 100%
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a.homepage:hover {
+    background-color: #002145;
+    color: white;
+}
+
+.ticketButton {
+    background-color: white; 
+    border: 2px solid #002145;
+    border-radius: 12px;
+    color: #002145; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    /*margin: 4px 2px;*/
+    margin: 5% 11%;;
+    height: 100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.ticketButton:hover {
+    background-color: #002145;
+    color: white;
+}
+
+.infoButton {
+    background-color: white; 
+    width: 280px;
+    height: 15px;
+    border: 2px solid #002145;
+    border-radius: 12px;
+    color: #002145; 
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    /*margin: 4px 2px;*/
+    margin: 5% 11%;;
+    height: 100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.infoButton:hover {
+    background-color: #002145;
+    color: white;
+}
+
+.alert{
+    background-color: white;
+    border: 2px solid #002145;
+    margin: 0% 35%;
+  position: absolute;
+   top: 40%;
+   width:20%;
+   padding: 10px;
+text-align: center;
+    font-size: 18px;
+    border-radius: 12px;
+}
+

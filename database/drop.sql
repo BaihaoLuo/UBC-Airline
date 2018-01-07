@@ -1,0 +1,14 @@
+DROP TABLE   Vip2;
+DROP TABLE   Vip1;
+DROP TABLE   Vip;
+DROP TABLE   Lounge;
+DROP TABLE   Protector;
+DROP TABLE   SpecialNeeds;
+DROP TABLE   Modification;
+DROP TABLE   Luggage_belongsto;
+DROP TABLE   Ticket_refersto_has;
+DROP TABLE   Customer;
+DROP TABLE   Flight_schedule;
+DROP TABLE   Time;
+DROP TABLE   Employee2;
+DROP TABLE   Employee1;
